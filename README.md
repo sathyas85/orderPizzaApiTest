@@ -3,7 +3,7 @@ API Under Test: https://order-pizza-api.herokuapp.com/api/ui/
 
 A REST-ful API for pizza ordering. Through this API, you can place order of a fake pizza to your endpoint. It includes the Curst, Flavor, order_id, size, table_no, and timestamp of the order. Create your OAuth token to start the order placement. You can fetch all orders using a GET request. And if an order is generated wrong, you can delete it at a DELETE request.
 
-Used TestNG/RestAussred as my testing framework to test and validate the APIs belong to Pizza Ordering. Using TestNG to utilize the robust feature of TestNG’s annotations and flexibility to control tests to be ran. REST Assured is a Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs which provides easy accessibility to the response data.
+Used TestNG/RestAussred as my testing framework to test and validate the APIs belong to Pizza Ordering. Using TestNG to utilize the robust feature of TestNG’s annotations and flexibility to control tests to be ran. REST Assured is a Java library that provides a domain-specific language (DSL) for writing powerful, maintainable tests for RESTful APIs which provides easy accessibility to the response data. Used Maven as build tool to manage dependencies.
 
 
 Tests Performed:
