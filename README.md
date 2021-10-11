@@ -25,3 +25,9 @@ Cons:
 2.	Difficult to implement Load Testing
 3.	Requirements related to number of tables or flavor or size availability is not clear so unable to implement specific tests for those use cases
 
+To Execute Code
+
+Run order.pizza.tests.OrderPizzaApiTest or
+Run testng.xml
+
+If Code not getting executed set testng.dtd.http = true as part of JVM argument
